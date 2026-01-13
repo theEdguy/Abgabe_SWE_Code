@@ -150,15 +150,8 @@ public class CreatorImpl implements Creator {
         for(int i=0; i<k; i++) palette.add(pixels.get(rand.nextInt(pixels.size())));
 
         for(int iter=0; iter<5; iter++) {
-            // Zuweisung und Neuberechnung hier vereinfacht weggelassen für "Minimum",
-            // Stattdessen nutzen wir einfach die Palette um das nächste Mapping zu finden.
-            // (Für echte K-Means müsste hier der Code aus deiner Datei rein. 
-            // Unten steht die "schnelle" Zuordnung)
         }
 
-        // Mapping: Finde für jeden Pixel die ähnlichste Farbe in der Palette
-        // HINWEIS: Wenn du echten K-Means willst, kopiere den Block aus deiner hochgeladenen Datei.
-        // Für "Minimum" nehme ich hier an, wir mappen einfach auf die Palette, die wir haben.
         
         for(int y=0; y<h; y++) {
             for(int x=0; x<w; x++) {
