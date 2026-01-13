@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Starte ArtCreator GUI",
+			"type": "shell",
+			"command": "mvn exec:java -Dexec.mainClass=artcreator.Main",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [
+				"$javac"
+			],
+			"group": "build"
+		}
+	]
+}
